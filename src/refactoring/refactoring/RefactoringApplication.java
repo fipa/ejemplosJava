@@ -3,7 +3,7 @@ package refactoring.refactoring;
 import refactoring.common.Inventory;
 
 import refactoring.messageHandling.initial.MessageHandlingInitial;
-import refactoring.messageHandling.modified.MessageHandlingModified;
+//import refactoring.messageHandling.modified.MessageHandlingModified;
 
 public class RefactoringApplication {
 
@@ -11,7 +11,7 @@ public class RefactoringApplication {
 
         Inventory inventory = new Inventory(5);
         MessageHandlingInitial messageHandlingInitial = new MessageHandlingInitial(inventory);
-        MessageHandlingModified messageHandlingModified = new MessageHandlingModified(inventory);
+        //MessageHandlingModified messageHandlingModified = new MessageHandlingModified(inventory);
 
         System.out.println("Printing ");
 
@@ -19,7 +19,7 @@ public class RefactoringApplication {
         System.out.println(messageHandlingInitial.printStatus());
 
         System.out.println("Modified version message: ");
-        System.out.println(messageHandlingModified.printStatus());
+        //System.out.println(messageHandlingModified.printStatus());
 
 
         System.out.println("Sending email ");
@@ -28,6 +28,6 @@ public class RefactoringApplication {
         System.out.println(messageHandlingInitial.sendEmailWithStatus());
 
         System.out.println("Final version message: ");
-        System.out.println(messageHandlingModified.sendEmailWithStatus());
+        //System.out.println(messageHandlingModified.sendEmailWithStatus());
 	}
 }

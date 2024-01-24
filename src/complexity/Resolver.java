@@ -2,8 +2,8 @@ package complexity;
 
 public class Resolver {
 
-    public static final String NO_HAY_PROBLEMA = "No hay problema";
-    public static final String AHORA_SI_HAY_PROBLEMA = "Ahora si hay problema";
+    private static final String NO_HAY_PROBLEMA = "No hay problema";
+    private static final String AHORA_SI_HAY_PROBLEMA = "Ahora si hay problema";
 
     public static String resolver(boolean funciona, boolean loHasTocado, boolean nosDaraProblema, boolean alguienLoSabe, boolean puedesCulparAOtro){
 

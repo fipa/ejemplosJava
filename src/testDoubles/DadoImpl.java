@@ -19,6 +19,6 @@ public class DadoImpl implements Dado {
 	}
 	
 	public int lanzar() {
-		return new Random().nextInt(6) + 1;
+		return new Random().nextInt(6) + 1; // valor random, ¿cómo lo testeamos?
 	}
 }

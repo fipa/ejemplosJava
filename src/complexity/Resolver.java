@@ -5,7 +5,7 @@ public class Resolver {
     public static final String NO_HAY_PROBLEMA = "No hay problema";
     public static final String AHORA_SI_HAY_PROBLEMA = "Ahora si hay problema";
 
-    public String funciona(boolean funciona, boolean loHasTocado, boolean nosDaraProblema, boolean alguienLoSabe, boolean puedesCulparAOtro){
+    public static String resolver(boolean funciona, boolean loHasTocado, boolean nosDaraProblema, boolean alguienLoSabe, boolean puedesCulparAOtro){
 
         if(funciona){
             return "No lo toques, " + NO_HAY_PROBLEMA;

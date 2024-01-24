@@ -18,8 +18,13 @@ class MathOperationsTest {
 	@Test
 	void testSum() {
 		Integer resultado = MathOperations.sum(this.numbers);
-		
 		assertEquals(3, resultado);
 	}
 
+	@Test
+	void testMax() {
+		Integer resultado = MathOperations.max(this.numbers);
+		assertEquals(2, resultado);
+	}
+	
 }

@@ -1,6 +1,6 @@
-package refactoring.messageHandling.initial;
+package refactoring.messageHandling;
 
-public class EmailImapServiceInitial extends EmailServiceInitial {
+public class EmailImapService extends EmailService {
 
     // incomplete, implemented just for the refactoring exercises
 

@@ -1,15 +1,15 @@
-package refactoring.messageHandling.initial;
+package refactoring.messageHandling;
 
 import refactoring.common.Inventory;
 
-public class MessageHandlingInitial {
+public class MessageHandling {
 
-    public MessageHandlingInitial(Inventory inventory) {
+    public MessageHandling(Inventory inventory) {
         this.inventory = inventory;
     }
 
     private Inventory inventory;
-    private EmailPopServiceInitial emailService = new EmailPopServiceInitial();
+    private EmailPopService emailService = new EmailPopService();
 
     public String printStatus() {
         if (this.inventory.itemsLeft() > 0) {
